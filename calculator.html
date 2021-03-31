@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Calculator - Deepa Murali</title>
+<link rel = "stylesheet" type = "text/css"  href = "calculator.css" />
+</head>
+
+<body>
+
+<div id="container">
+<p>Calculator</p>
+<form name="myForm">
+ 
+<input type="text"  id="firstNumber"/>
+<input type="text" id="secondNumber"/>
+
+
+<input class="key" onclick="addBy()" value="+">
+
+<input class="key" onclick="subtractBy()" value="-">
+<input class="key" onClick="multiplyBy()" value="*">
+<input class="key" onClick="divideBy()"   value="/">
+<div id ="result">
+
+</div>
+
+
+<button class = "key" onclick="ClearCalculator()">Clr</button>
+
+</form>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
+
